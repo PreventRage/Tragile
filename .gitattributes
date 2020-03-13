@@ -1,0 +1,24 @@
+###############################################################################
+# .gitattributes PeterEn Version 20 
+###############################################################################
+
+*           text=auto
+*.txt       text
+*.cs        text
+*.xaml      text
+*.csproj    text
+*.sln       text
+*.tt        text
+*.ps1       text
+*.cmd       text
+*.msbuild   text
+*.md        text
+
+*.js        text
+*.ts        text
+*.js.map    text
+*.json      text
+
+*.png       binary
+*.jpeg      binary
+*.jpg       binary
