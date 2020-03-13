@@ -3,14 +3,14 @@ using module .\SetupApi.psm1
 
 <#
 .SYNOPSIS
-Lists devices attached to your system. Removes ghost devices.
+Lists devices attached to your system. Notices ghost devices. Removes them.
 
 .DESCRIPTION
 This script will remove ghost devices from your system. These are devices that registered but not
 actually plugged in or present. They're usually invisible in Device Manager but show up (in faded
 colors) when you select "Show hidden devices" from the View menu. They seem to be left behind if
 you plug a device into a different USB port, for example.
-This script has no warranty of any kind. Please use cautiously as removing devices is a destructive
+This script has NO WARRANTY OF ANY KIND. Please use cautiously as removing devices is a destructive
 process without an undo. Presume I'm an idiot and that it'll do someone awful.
 
 .PARAMETER OnlyGhosts
